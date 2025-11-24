@@ -19,6 +19,6 @@ This tutorial shows how to configure account lockout policy in Active Directory 
 <img width="553" height="669" alt="image" src="https://github.com/user-attachments/assets/b23a4f44-e98e-476f-9087-de08944bda54" />
 </p>
 <p>
-In the Domain Controller machine, in the "Run" section, type "gpmc.msc". This will open the "Group Policy Management". From there, right-click the "Group Policy Object" and select "edit" to modify it. Then, expand the sections up to "Account Lockout Policy". Finally double-click the setting(s) that needs to be configured (in this instance it is "Account Lockout Duration"). Click "Apply" and "Ok" to confirm.
+In the Domain Controller machine, in the "Run" section, type "gpmc.msc". This will open the "Group Policy Management". From there, right-click the "Group Policy Object" and select "edit" to modify it. Once the "Group Policy Management Editor" window appears, expand the sections as shown in the image, up to "Account Lockout Policy". Finally double-click the setting(s) that needs to be configured (in this instance it is "Account Lockout Duration"). Click "Apply" and "OK" to confirm.
 </p>
 <br />
